@@ -1,2 +1,3 @@
-# curiosity
+# Curiosity
+
 A game challenge
