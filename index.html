@@ -8,64 +8,7 @@
       rel="stylesheet"
       href="https://daneden.github.io/animate.css/animate.min.css"
     />
-    <style>
-      #mars {
-        display: flex;
-        flex-direction: column;
-      }
-
-      .row {
-        display: flex;
-      }
-
-      .col {
-        width: 100px;
-        height: 100px;
-        outline: 1px solid red;
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        cursor: pointer;
-      }
-
-      .col::after {
-        content: "";
-        position: absolute;
-        width: 10px;
-        height: 10px;
-        background: red;
-        display: none;
-      }
-
-      .direction-W::after {
-        display: block;
-        left: 0;
-        top: 50%;
-        margin-top: -5px;
-      }
-
-      .direction-N::after {
-        display: block;
-        top: 0;
-        left: 50%;
-        margin-left: -5px;
-      }
-
-      .direction-E::after {
-        display: block;
-        top: 50%;
-        right: 0;
-        margin-top: -5px;
-      }
-
-      .direction-S::after {
-        display: block;
-        left: 50%;
-        bottom: 0;
-        margin-left: -5px;
-      }
-    </style>
+    <link rel="stylesheet" href="./app.css">
   </head>
   <body>
     <span class="current-rover-name"></span>
